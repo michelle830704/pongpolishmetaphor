@@ -1,0 +1,126 @@
+[gd_scene load_steps=8 format=3 uid="uid://bxsjqwurlq4a8"]
+
+[ext_resource type="Material" uid="uid://c3b0ilgfnsvyi" path="res://shared/materials/Mat_Black.tres" id="1_y0gck"]
+[ext_resource type="Script" uid="uid://vspf4tlaj8t6" path="res://W0041E/Laboratory1/Lab3_GameFeel_Pong/Scripts/PongLogic.cs" id="2_0f0sq"]
+
+[ext_resource type="Script" path="res://Ocean/OceanPolish.cs" id="3_ocean"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_5lwcm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ia4oc"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_xpm5r"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_idfya"]
+
+[node name="Lab31" type="Node3D"]
+
+[node name="Level" type="Node3D" parent="."]
+
+[node name="Background" type="MeshInstance3D" parent="Level"]
+transform = Transform3D(3.6749, 0, 0, 0, -8.74228e-08, 2.671, 0, -2, -1.16753e-07, 0, 0, 0)
+material_override = ExtResource("1_y0gck")
+mesh = SubResource("QuadMesh_5lwcm")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Level"]
+transform = Transform3D(-0.185162, -0.981966, -0.0381943, -0.142652, -0.0115964, 0.989705, -0.972299, 0.188704, -0.137932, -0.0830178, 0.998127, -1.38534)
+
+[node name="Centerline" type="Node3D" parent="Level"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, -0.15)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, -0.3)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, -0.45)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D5" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, -0.6)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D6" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, -0.75)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D7" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, -0.9)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D8" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0.899648)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D9" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0.749648)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D10" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0.599648)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D11" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0.449648)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D12" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0.299648)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="MeshInstance3D13" type="MeshInstance3D" parent="Level/Centerline"]
+transform = Transform3D(0.035, 0, 0, 0, 0.035, 0, 0, 0, 0.099, 0, 0, 0.149648)
+mesh = SubResource("BoxMesh_ia4oc")
+skeleton = NodePath("../..")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 1.42107, -6.2117e-08)
+
+[node name="PaddleController" type="Node3D" parent="." node_paths=PackedStringArray("leftPaddle", "rightPaddle", "ball")]
+script = ExtResource("2_0f0sq")
+leftPaddle = NodePath("LeftPaddle")
+rightPaddle = NodePath("RightPaddle")
+ball = NodePath("../Ball")
+tableSize = Vector2(3, 2)
+ballSpeed = 15.0
+paddleSpeed = 5.0
+
+[node name="LeftPaddle" type="Node3D" parent="PaddleController"]
+transform = Transform3D(0.07, 0, 0, 0, 0.07, 0, 0, 0, 0.5, -1.5, 0, 0)
+
+[node name="LeftPaddleMesh" type="MeshInstance3D" parent="PaddleController/LeftPaddle"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4, 0, 0)
+mesh = SubResource("BoxMesh_xpm5r")
+
+[node name="RightPaddle" type="Node3D" parent="PaddleController"]
+transform = Transform3D(0.07, 0, 0, 0, 0.07, 0, 0, 0, 0.5, 1.5, 0, 0)
+
+[node name="LeftPaddleMesh" type="MeshInstance3D" parent="PaddleController/RightPaddle"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 0, 0)
+mesh = SubResource("BoxMesh_xpm5r")
+
+[node name="Ball" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.100372, 0, 0, 0, 0.100372, 0, 0, 0, 0.100372, 0, 0, 0)
+mesh = SubResource("SphereMesh_idfya")
+
+[node name="OceanPolish" type="Node3D" parent="."]
+script = ExtResource("3_ocean")

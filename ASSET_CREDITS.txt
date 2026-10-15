@@ -1,0 +1,18 @@
+KENNEY ASSETS
+Author: Kenney
+Pack: Fish Pack 2.0
+Source: https://kenney.nl/assets/fish-pack
+Download: https://kenney.nl/media/pages/assets/fish-pack/07ae98c5b6-1747237960/kenney_fish-pack_2.zip
+License: Creative Commons CC0. Original notice: Ocean/Source/Kenney-License.txt
+Selected originals: fish_orange.png, fish_blue.png, seaweed_green_a.png, seaweed_pink_a.png, rock_a.png.
+
+MODIFICATIONS
+The original pack contains 2D artwork, not ready-made 3D fish.
+Selected silhouettes/colors were converted into closed colored meshes with front, back and side surfaces and a rounded depth profile. SurfaceTool creates solid ArrayMesh resources from the included vertex data. Models are resized and rotated for this scene. This is a derivative conversion, not an official Kenney 3D release.
+The derived meshes and original synthesized WAV sound effects created for this project are provided under CC0: https://creativecommons.org/publicdomain/zero/1.0/
+
+ORIGINAL PROJECT
+The teacher-supplied Pong scene, C# mechanics, icon and shared materials originate in the uploaded W0041E-Pong-main.zip. Their original terms remain applicable; this file does not relicense that source. Unused debug-draw plugin binaries and obsolete .csproj backups were omitted. The project targets Godot .NET 4.5 / .NET 8.
+
+AQUARIUM VIEW REVISION
+Rounded fish bodies, protruding eyes, solid fins, coral branches and coloured smooth stones are additional procedural 3D geometry created in C#. The animated underwater backdrop shader and sand material are procedural. These additions are not official Kenney assets. New generated visual assets are CC0.

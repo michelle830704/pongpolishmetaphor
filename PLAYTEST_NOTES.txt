@@ -1,0 +1,37 @@
+REEF RALLY — PLAYTEST AND SUBMISSION NOTES
+
+This is a template. Replace the blank sections with observations from a real playtest. Do not submit invented feedback.
+
+Date:
+Tester:
+Controller used:
+Time played:
+
+1. Based on the representation and polish, is something expected from the metaphor or treatment that feels missing?
+Tester observation:
+
+My interpretation:
+
+2. Based on the representation and polish, how would you like the mechanics to change?
+Tester suggestion:
+
+Why the theme created this expectation:
+
+These are suggestions only. The supplied mechanics have been preserved for this assignment.
+
+PRESENTATION CHECKS DURING THE TEST
+[ ] Both sticks control the original paddles.
+[ ] Moving-paddle hits trigger smash effects.
+[ ] Ball and fish squash/stretch are visible.
+[ ] Impact sounds and start/stop cues are audible and suitable.
+[ ] Camera staging, follow and smash shake feel clear.
+[ ] Impact bubbles and direction-change puffs are visible.
+[ ] P / checkbox restores the original presentation while the game continues.
+[ ] Switching repeatedly causes no gameplay or visual problems.
+
+SUBMISSION REFERENCE
+Repository URL:
+Git username:
+Final commit hash:
+
+After committing, obtain the hash with: git rev-parse HEAD
